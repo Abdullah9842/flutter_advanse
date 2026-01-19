@@ -5,6 +5,9 @@ import 'package:my_own/ui/login_screen.dart';
 
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
+
+    final args = settings.arguments;
+
     switch (settings.name) {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(
