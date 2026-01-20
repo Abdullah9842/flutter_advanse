@@ -45,6 +45,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       _obscureText ? Icons.visibility : Icons.visibility_off,
                     ),
                   ),
+                  
                 ),
 
                 verticalSpace(15),
